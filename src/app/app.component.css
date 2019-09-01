@@ -1,0 +1,97 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  background: #252932;
+  margin-bottom: 0px;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header .logo {
+  color: #f2f2f2;
+  font-size: 33px;
+  line-height: 100px;
+  float: left;
+}
+
+.title {
+  color: #FFFFF9;
+  font-size: 94px;
+}
+
+.title-docker {
+  color: #FFFFF9;
+}
+
+.title-jenkins {
+  color: #F707BE;
+}
+
+.title-ansible {
+  color: #1839F7;
+}
+
+.footer {
+  padding: 50px 0 20px 0;
+  background-color: #090c14;
+  color: #878c94;
+}
+
